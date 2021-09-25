@@ -1,0 +1,109 @@
+/* MAIN */
+main {
+	margin-bottom: 1.5em;
+}
+
+/* tableau */
+table {
+	margin: 0 auto;
+	width: 90%;
+}
+#tab2 {
+	margin-top: 2em;
+}
+table, th, td {
+	border: solid #cbcbcb 1px;
+	border-collapse: collapse;
+}
+caption {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+table th {
+	font-size: 1.6em;
+	font-family: "Kaushan Script";
+	background-color: #c4a5de;
+	color: white;
+	text-align: left;
+	column-span: 3;
+	padding: 0.5em;
+	font-weight: normal;
+}
+table tr {
+	font-family: "Playfair Display", serif;
+	text-align: center;
+}
+.trFond {
+	background-color: #f2f2f2;
+}
+.tableauDate {
+	text-align: left;
+}
+table td {
+	padding: 0.6em;
+}
+
+/* Partie Formulaire */ 
+form {
+	width: 90%;
+	margin: auto;
+}
+fieldset {
+	text-align: center;
+	margin: 1.5em 0;
+	height: 8em;
+	border-color: #dddddd;
+}
+h3 {
+	font-size: 1.5em;
+}
+legend {
+	font-size: 1.5em;
+}
+#coordonnee input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid #dddddd 1px;
+	width: 8em;
+
+}
+#QCM label {
+	margin-right: 1em;
+}
+#ouiOuNon label {
+	margin-right: 1em;
+}
+select {
+	width: 95%;
+	height: 3em;
+	background-color: white;
+	border: solid #dddddd 1px;
+	border-radius: 5px;
+	color: #5b6481;
+}
+#envoi {
+	background-color: #8a62c2;
+	border: none;
+	padding: 0.6em 1.3em;
+	color: white;
+}
+
+/* FOOTER */
+.licence a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.licence {
+	background-color: #8B76D2;
+	padding: 10px;
+	color: white;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.licence img {
+    width: 50px;
+}

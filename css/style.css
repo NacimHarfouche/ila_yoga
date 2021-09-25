@@ -1,0 +1,86 @@
+/* importation des fonts */
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Playfair+Display');
+
+/* Global */
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+	font-family: "Playfair Display", serif;
+	font-size: 1em;
+	margin: 0;
+	color: #34495E;
+	line-height: 1.8;
+}
+
+a {
+	color: #8A62C2;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	text-align: center;
+}
+
+.clear {
+	overflow: auto;
+}
+
+/* Nav */
+nav {
+	text-align: center;
+	background-color: rgba(255,255,255,0.3);
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+nav a {
+	text-align: center;
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+	/* vertical-align: middle; */
+	margin: 0 50px;
+	color: white;
+	font-family: "Kaushan Script";
+
+}
+
+
+nav a .fa {
+	display: block;
+}
+
+/* Header */
+header {
+	background-image: url(../img/fond.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.presentation {
+	color: white;
+	padding: 50px 0 300px;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+	font-family: "Kaushan Script";
+	font-size: 2em;
+}
+
+/* Promo */
+.promo {
+	background-color: rgba(255,255,255,0.15);
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+}
+
+.promo strong {
+	font-weight: normal;
+}

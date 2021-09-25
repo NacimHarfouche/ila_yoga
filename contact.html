@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+	<meta charset="utf-8"/>
+    <title>ila Yoga</title>
+    <!-- css normalize -->
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+	<!-- feuille de style -->
+	<link type="text/css" rel="stylesheet" href="./css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/contact.css"/>
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<!-- font -->
+	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Playfair+Display"> -->
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+</head>
+
+<body>
+	<!--header-->
+	<header>
+		<nav>
+			<a href="./index.html">
+				<i class="far fa-calendar-alt"></i>
+				Agenda
+			</a><!--
+			--><a href="#">
+				<i class="fa fa-book"></i>
+				Livre d'or
+			</a><!--
+			--><a href="#">
+				<i class="far fa-image"></i>
+				Album Photo
+			</a><!--
+			--><a href="./contact.html">
+				<i class="fa fa-envelope"></i>
+				Nous contacter
+			</a>
+		</nav>
+		<p class="promo"><strong>OFFRE PROMO : Votre premier cours d'essai gratuit !</strong></p>
+		<h1 class="presentation">Bienvenue sur le site d'Ila Yoga</h1>
+	</header>
+
+	<!--MAIN CONTENT-->
+	<main>
+		<!-- Partie Tableau -->
+		<table>
+			<caption>Réserver votre place pour le prochain cours de Yoga du rire !</caption>
+			<thead>
+				<th colspan="3">Yoga du rire avec Jacqueline (Paris)</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="tableauDate">05 Janvier 2019</td>
+					<td>15h30</td>
+					<td>Réserver ce créneau</td>
+				</tr>
+				<tr class="trFond">
+					<td class="tableauDate">10 Janvier 2019</td>
+					<td>16h30</td>
+					<td>Réserver ce créneau</td>
+				</tr>
+				<tr>
+					<td class="tableauDate">15 Janvier 2019</td>
+					<td>15h30</td>
+					<td>Réserver ce créneau</td>
+				</tr>
+				<tr class="trFond">
+					<td class="tableauDate">20 Janvier 2019</td>
+					<td>16h30</td>
+					<td>Réserver ce créneau</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table id="tab2">
+			<thead>
+				<th colspan="3">Yoga du rire avec Roger (Marseille)</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="tableauDate">05 Janvier 2019</td>
+					<td>15h30</td>
+					<td>Réserver ce créneau</td>
+				</tr>
+				<tr class="trFond">
+					<td class="tableauDate">10 Janvier 2019</td>
+					<td>16h30</td>
+					<td>Réserver ce créneau</td>
+				</tr>
+				<tr>
+					<td class="tableauDate">15 Janvier 2019</td>
+					<td>15h30</td>
+					<td>Réserver ce créneau</td>
+				</tr>
+				<tr class="trFond">
+					<td class="tableauDate">20 Janvier 2019</td>
+					<td>16h30</td>
+					<td>Réserver ce créneau</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- Partie Formulaire -->
+		<h3>Pour valider votre réservation, compléter ce formulaire :</h3>
+		
+		<form method="post">
+
+			<fieldset id="coordonnee">
+				<legend>Vos coordonnées</legend>
+				<label for="pseudo">Votre prénom : </label><input type="text" name="pseudo" id="pseudo"/>
+				<label for="nom">Votre nom : </label><input type="text" name="nom" id="nom"/>
+				<label for="mai">Votre mail : </label><input type="email" name="mail" id="mail"/>
+			</fieldset>
+
+			<fieldset id="QCM">
+				<legend>Quelles sont les raisons de votre venue ?</legend>
+				<label for="detendre">Besoin de me détendre <input type="checkbox" name="detendre"></label>
+				<label for="conseiller">Mon médecin m'a conseillé de venir <input type="checkbox" name="conseiller"></label>
+				<label for="tester">Je veux tester avec des amis <input type="checkbox" name="tester"></label>
+			</fieldset>
+
+			<fieldset id="ouiOuNon">
+				<legend>Voulez-vous souscrire à notre programme de fidélité ?</legend>
+				<label for="yes">Oui <input type="radio" name="yesOrNo" id="yes"/></label>
+				<label for="no">Non <input type="radio" name="yesOrNo" id="no"/></label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Comment avez-vous connu ila Yoga ?</legend>
+				<select name="choix" id="choixListe">
+					<option value="internet" selected>  Par Internet</option>
+					<option value="ami">  Par une connaissance</option>
+					<option value="publiciter">  Via une publicité</option>
+					<option value="publiciter">  Via une Facebook</option>
+					<option value="publiciter">  Par votre Médecin</option>
+				</select>
+			</fieldset>
+			<input type="submit" value="Envoyer" id="envoi">
+		</form>
+	</main>
+
+	<!--footer-->
+	<footer class="licence">
+	    <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" style="border-width:0" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" /></a><br /><span>Cet exercice</span> de <a href="https://3wa.fr">3W Academy</a> est mis à disposition <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">pour l'usage personnel des étudiants, Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International</a>.<br />Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="mailto:contact@3wa.fr" rel="cc:morePermissions">contact@3wa.fr</a>. Les maquettes ont été réalisées par <a href="http://www.justine-muller.fr">Justine Muller</a>.
+	</footer>	
+</body>
+</html>
